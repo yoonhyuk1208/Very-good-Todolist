@@ -49,7 +49,8 @@ function App() {
             <React.Fragment key={i}>
               <Todo 
                 inputTitle={v.title} 
-                isdoen={v.check} idx={i} 
+                isdoen={v.check}
+                idx={i} 
                 check={donecheck}
                 delcom={delcomponent}
               />
